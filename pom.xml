@@ -58,9 +58,9 @@
     </properties>
 
     <scm>
-        <connection>scm:svn:http://svn.apache.org/repos/asf/sling/trunk/tooling/maven/archetypes/parent</connection>
-        <developerConnection>scm:svn:https://svn.apache.org/repos/asf/sling/trunk/tooling/maven/archetypes/parent</developerConnection>
-        <url>http://svn.apache.org/viewvc/sling/trunk/tooling/maven/archetypes/parent</url>
+        <connection>scm:git:https://gitbox.apache.org/repos/asf/sling-archetype-parent.git</conncetion>
+        <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/sling-archetype-parent.git</developerConnection>
+        <url>https://gitbox.apache.org/repos/asf?p=sling-archetype-parent.git</url>
     </scm>
     
     <build>
