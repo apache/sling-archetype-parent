@@ -34,8 +34,8 @@
 
     <properties>
         <!-- plugin versions to use in generated archetypes -->
-        <scrplugin.version>1.21.0</scrplugin.version>
-        <bundleplugin.version>3.0.0</bundleplugin.version>
+        <bndplugin.version>3.5.0</bndplugin.version>
+        <jarplugin.version>3.0.2</jarplugin.version>
         <compilerplugin.version>3.3</compilerplugin.version>
         <slingplugin.version>2.1.2</slingplugin.version>
         <launchpadplugin.version>2.3.2</launchpadplugin.version>
@@ -48,9 +48,11 @@
         
         <!-- dependency versions to use in generated archetypes -->
         <junit.version>4.12</junit.version>
-        <scrannotations.version>1.9.12</scrannotations.version>
         <slingapi.version>2.9.0</slingapi.version>
         <slf4japi.version>1.7.6</slf4japi.version>
+        <versionannotations.version>1.0.0</versionannotations.version>
+        <componentannotations.version>1.3.0</componentannotations.version>
+        <metatypeannotations.version>1.3.0</metatypeannotations.version>
         
         <!-- define archetype tooling version in a central place -->
         <archetype.version>2.2</archetype.version>
