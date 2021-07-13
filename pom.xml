@@ -73,8 +73,16 @@
                 <directory>src/main/resources</directory>
                 <filtering>true</filtering>
                 <includes>
-                    <include>**/*</include>
+                    <include>**/pom.xml</include>
                 </includes>
+            </resource>
+            <!-- Don't filter anything else -->
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>false</filtering>
+                <excludes>
+                    <exclude>**/pom.xml</exclude>
+                </excludes>
             </resource>
         </resources>    
         <pluginManagement>
